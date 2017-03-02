@@ -12,9 +12,7 @@ var body = document.body;
 
 document.getElementById("button").addEventListener('click', function(){
   body.style.backgroundColor = colors[i];
-
   imageDiv.setAttribute("src", imageArray[i]);
-
   var display = "";
   display += arr[i];
   i = (i+1) % arr.length;
