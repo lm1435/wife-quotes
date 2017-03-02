@@ -6,13 +6,16 @@ var colors = ['#67D5B5', '#EE7785', '#C89EC4', '#84B1ED', '#D4DFE6', '#9DC3C1', 
 var i = 0;
 var j = 0;
 var h = 0;
+var imageDiv = document.getElementById('images');
+imageDiv.classList.add("img-responsive");
+imageDiv.style.margin = "auto";
 document.getElementById('display').style.fontSize = "32px";
-var initialImage = document.getElementById('images');
 var body = document.body;
+
 document.getElementById("button").addEventListener('click', function(){
   body.style.backgroundColor = colors[h];
   h = (h+1) % colors.length;
-  initialImage.setAttribute("src", imageArray[j]);
+  imageDiv.setAttribute("src", imageArray[j]);
   j = (j+1) % imageArray.length;
   var display = "";
   display += arr[i];
