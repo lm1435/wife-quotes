@@ -1,5 +1,5 @@
 // $(document).ready(function(){
-var arr = ["Babe, you don't be puto to me", "UM, NO!", "EXCUSE YOU!","I get to pinch your nipples now", "QUESO!", "Why do I have a website!?", "I don't like it, I don't like it, I don't like it.", "Idioso"];
+var arr = ["What is this?", "UM, NO!", "EXCUSE YOU!","WHY DO I HAVE A WEBSITE?", "DELETE IT!", ".....", "I don't like it, I don't like it, I don't like it.", "You better delete this!"];
 var imageArray = ["images/1.jpg","images/2.jpg","images/3.jpg",
   "images/4.jpg","images/5.jpg","images/6.jpg", "images/7.jpg", "images/8.jpg"];
 var colors = ['#67D5B5', '#EE7785', '#C89EC4', '#84B1ED', '#D4DFE6', '#9DC3C1', '#FFEEE4', '#dedcee'];
